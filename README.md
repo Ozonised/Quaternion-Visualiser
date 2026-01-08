@@ -15,3 +15,6 @@ To use the script simply, replace [serial port] with your serial port number, an
 ### For example:
 Here is a example on linux:
 ```uart_mcu = serial.Serial('/dev/ttyACM0', 115200, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS)```
+
+### Note:
+You might have to install some python packages such as: ```pyquaternion```, and ```matplotlib```.
